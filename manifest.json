@@ -8,7 +8,9 @@
         "service_worker": "background.js"
     },
     "permissions": [
-        "storage"
+        "storage",
+        "activeTab",
+        "scripting"
     ],
     "action": {
         "default_popup": "popup.html"
